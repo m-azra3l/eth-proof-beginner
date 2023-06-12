@@ -20,7 +20,6 @@ contract EPBToken {
         balances[msg.sender] = 6;
     }
 
-
     // Function to mint new tokens and increase the balance of a specified address
     function mint(address _to, uint256 _value) public {
         // Make sure the address is valid
